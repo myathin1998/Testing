@@ -34,7 +34,7 @@ stages:
         steps:
           - name: Checkout Code
             uses: actions/checkout@v2
-          - name: Push
+          - name: Push the image
             run: |
               # Insert build commands here
         
