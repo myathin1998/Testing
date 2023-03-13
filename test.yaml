@@ -1,4 +1,4 @@
-name: Sample Pipeline
+name: Sample Pipeline1
 
 # Define the trigger for the pipeline
 trigger:
