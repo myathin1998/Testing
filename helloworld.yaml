@@ -1,0 +1,18 @@
+# Name of your pipeline
+name: HelloWorldPipeline
+
+# The trigger that starts the pipeline
+trigger:
+- main
+
+# The job that the pipeline will perform
+jobs:
+  # The job for running the "Hello, World!" script
+  - job: HelloWorld
+    displayName: 'Hello, World!'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: |
+        echo 'Hello, World!'
+      displayName: 'Print Hello, World!'
