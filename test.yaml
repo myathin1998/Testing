@@ -36,7 +36,7 @@ stages:
             uses: actions/checkout@v2
           - name: Push the image
             run: |
-              # Insert build commands here
+              # Insert push commands here
         
               
 
