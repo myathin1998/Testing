@@ -1,0 +1,8 @@
+# This is a YAML file
+name: John Doe
+age: 30
+city: New York
+skills:
+  - Python
+  - Java
+  - C++
