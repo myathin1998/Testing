@@ -29,17 +29,4 @@ stages:
             run: |
               # Insert unit test commands here
 
-  - name: Deploy
-    jobs:
-      - name: Deploy Job
-        steps:
-          - name: Checkout Code
-            uses: actions/checkout@v2
-          - name: Build
-            run: |
-              # Insert build commands here
-          - name: Deploy
-            uses: some/deployment-action@v1
-            with:
-              # Insert deployment configuration here
 
