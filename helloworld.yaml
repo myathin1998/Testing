@@ -14,5 +14,5 @@ jobs:
       vmImage: 'ubuntu-latest'
     steps:
     - script: |
-        echo 'hello Change Here, hello world'
+        echo 'testing'
       displayName: 'Print Hello, World!'
